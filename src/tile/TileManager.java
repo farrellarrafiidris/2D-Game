@@ -21,7 +21,7 @@ public class TileManager {
         tile = new Tile[10];
         mapTileNum = new int[gp.maxWorldCol][gp.maxWorldRow];
         getTileImage();
-        loadMap("/maps/maze.txt");
+        loadMap("/maps/world01.txt");
     }
 
     private void getTileImage() {

@@ -32,7 +32,7 @@ public class CollisionChecker {
                     entity.collisionOn = true;
                 break;
             case "down":
-                entityBottomRow = (entityBottomWorldY - entity.speed)/gp.tileSize;
+                entityBottomRow = (entityBottomWorldY + entity.speed)/gp.tileSize;
                 tileNum1 = gp.tileM.mapTileNum[entityLeftCol][entityBottomRow];
                 tileNum2 = gp.tileM.mapTileNum[entityRightCol][entityBottomRow];
                 if (gp.tileM.tile[tileNum1].collision || gp.tileM.tile[tileNum2].collision){
@@ -59,5 +59,21 @@ public class CollisionChecker {
                 break;
         }
 
+    }
+
+    public int checkObject(Entity entity, boolean player){
+        int index = 999;
+
+        for (int i = 0; i < gp.obj.length; i++){
+            if(gp.obj[i]!= null){
+                entity.solidArea.x = entity.worldX + entity.solidArea.x;
+                entity.solidArea.y = entity.worldY + entity.solidArea.y;
+                gp.obj[i].solitArea.x = gp.obj[i].worldX + gp.obj[i].solitArea.x;
+                gp.obj[i].solitArea.y = gp.obj[i].worldY + gp.obj[i].solitArea.y;
+
+
+            }
+        }
+        return index;
     }
 }
