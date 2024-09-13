@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f356b9f-5991-48bd-b82d-0f7b80c48791" name="Changes" comment="now map is avail">
+    <list default="true" id="0f356b9f-5991-48bd-b82d-0f7b80c48791" name="Changes" comment="new map! - Maze">
+      <change afterPath="$PROJECT_DIR$/res/maps/maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/CollisionChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/maps/map01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/maps/map01.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
     </list>
@@ -63,8 +68,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jshzh\IdeaProjects\2d-game\res\tiles" />
       <recent name="C:\Users\jshzh\IdeaProjects\2d-game\res\maps" />
+      <recent name="C:\Users\jshzh\IdeaProjects\2d-game\res\tiles" />
       <recent name="C:\Users\jshzh\IdeaProjects\2d-game\" />
       <recent name="C:\Users\jshzh\IdeaProjects\2d-game\src\res\tiles" />
       <recent name="C:\Users\jshzh\IdeaProjects\2d-game\src\res\player" />
@@ -114,14 +119,35 @@
       <option name="project" value="LOCAL" />
       <updated>1726120046711</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="render system">
+      <option name="closed" value="true" />
+      <created>1726121618083</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726121618083</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="game 2d?" />
     <MESSAGE value="game 2d part 2?" />
     <MESSAGE value="the guy is walking now" />
     <MESSAGE value="now map is avail" />
-    <option name="LAST_COMMIT_MESSAGE" value="now map is avail" />
+    <MESSAGE value="render system" />
+    <MESSAGE value="new map! - Maze" />
+    <option name="LAST_COMMIT_MESSAGE" value="new map! - Maze" />
   </component>
 </project>
