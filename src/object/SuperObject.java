@@ -10,7 +10,7 @@ public class SuperObject {
     public String name;
     public boolean collision;
     public int worldX, worldY;
-    public Rectangle solitArea = new Rectangle(0, 0,48,48);
+    public Rectangle solidArea = new Rectangle(0, 0,48,48);
     public int solitAreaDefaultX = 0;
     public int solitAreaDefaultY = 0;
 
