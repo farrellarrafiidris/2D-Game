@@ -78,8 +78,11 @@ public class Player extends Entity{
             gp.cChecker.checkTile(this);
 
             int objIndex = gp.cChecker.checkObject(this, true);
+            pickUpObject(objIndex);
 
-            if (collisionOn == false) {
+
+
+            if (!collisionOn) {
                 switch (direction) {
                     case "up":
                         worldY -= speed;
@@ -109,6 +112,14 @@ public class Player extends Entity{
             }
         }
     }
+
+    public void pickUpObject(int i){
+        if (i != 999){
+            gp.obj[i] = null;
+        }
+    }
+
+
     public void draw(Graphics2D g2){
 //        g2.setColor(Color.white);
 //        g2.fillRect(x,y,gp.tileSize,gp.tileSize);
